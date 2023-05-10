@@ -1,0 +1,15 @@
+<div class="all_blogs_cards" *ngFor="let item of elements">
+  <a class="cards" [routerLink]="['/blogPost/', item.id]">
+    <div class="cards_post display_f">
+        <div class="cards_img">
+          <img src={{item.img}} alt="image" />
+        </div>
+        <div class="cards_data">
+          <h4 class="title">{{ item.title }}</h4>
+          <p class="text">{{ item.text }}</p>
+          <p class="text_data">{{ item.textUs }}</p>
+        </div>
+    </div>
+  </a>
+</div>
+

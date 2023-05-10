@@ -1,0 +1,57 @@
+/* read_next #################### */
+
+.read_next{
+	width: 100%;
+}
+.read_next h2{
+  font-family: 'Sen';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #000000;
+}
+
+.next_block{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+  padding-top: 2rem;
+}
+
+.next{
+	width: 405px;
+	height: 606px;
+}
+.next p{
+	font-family: 'Inter';
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	color: #4C4C4C;
+	padding: 8px 0px;
+}
+.next p span{
+  color: #592EA9;
+}
+.next h4{
+	font-family: 'Sen';
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 40px;
+	letter-spacing: -1px;
+	color: #232536;
+}
+.next_text{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #232536;
+}
+/* Join our team - - - block10 */
+.join_our_team{
+  width: 100%;
+  background-color: white;
+  padding: 4rem 0rem;
+}

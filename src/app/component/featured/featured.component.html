@@ -1,0 +1,11 @@
+<div class="post_blockes" *ngFor="let item of elements">
+  <div class="featured_img">
+    <img src={{item.img}} alt="white">
+  </div>
+  <div class="post_text_fe">
+    <p class="feat_data">By <span>{{item.dataSpanText}}</span>{{item.dataText}}</p>
+    <p class="feat_text">{{item.text}}</p>
+    <p class="feat_text2">{{item.textUs}}</p>
+    <a class="feat_btn" [routerLink]="['/blogpost', item.id]">Read Move ></a>
+  </div>
+</div>

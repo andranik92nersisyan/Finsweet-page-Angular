@@ -1,0 +1,40 @@
+<header class="nav_bar">
+  <div class="container_admin">
+    <div class="mar-t-b">
+      <div class="logo_img_admin">
+        <img src="/assets/img/Logo.png" alt="" />
+      </div>
+      <ul class="logOut">
+        <li>
+          <a class="log" (click)="logout()">Logout</a>
+        </li>
+      </ul>
+      <div class="logo_admin">
+        <a routerLink="/home">
+          <img src="/assets/img/avataaars.png" alt="" />
+        </a>
+      </div>
+    </div>
+    <div class="f-l">
+      <div class="dropdown_menu">
+        <ul>
+          <li>
+            <a routerLink="dashboard" routerLinkActive="active">Dashboard</a>
+          </li>
+          <li>
+            <a routerLink="post-all" routerLinkActive="active">Posts</a>
+          </li>
+          <li>
+            <a routerLink="category-n" routerLinkActive="active">Catagory</a>
+          </li>
+          <li>
+            <a routerLink="authors-n" routerLinkActive="active">Authors</a>
+          </li>
+        </ul>
+      </div>
+      <div class="auto-m">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,115 @@
+/* <!-- Category Section (category) --> */
+
+.blog_category {
+  width: 100%;
+  height: 80px 0px;
+  background: #f4f0f8;
+}
+
+.busines > h2 {
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: -2px;
+  color: #232536;
+  padding-top: 3.5rem;
+}
+.busines > p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #6d6e76;
+  padding: 1.5rem 0rem;
+}
+.busines > a {
+  display: block;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #232536;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* Category Section (category) */
+.category {
+  padding: 128px 0px;
+}
+.section_block {
+  justify-content: space-between;
+}
+.categories_all h5 {
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #232536;
+}
+.tags_btn > .btn_cl {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 32px;
+  color: #232536;
+  text-decoration: none;
+  border: 2px solid #6d6e76;
+  border-radius: 28px;
+  padding: 8px 30px;
+  margin: 0 16px 16px 0;
+  display: inline-block;
+  transition-duration: 0.5s;
+}
+.tags_btn a:hover {
+  transform: scale(1.1);
+  background-color: #ffd050;
+}
+@media screen and (max-width: 1150px) {
+  .busines > p {
+      padding: 16px 90px 32px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .blog_category {
+      padding: 20px 0;
+  }
+  .categories_all {
+      flex-wrap: wrap;
+  }
+  .category {
+      padding: 50px 0;
+  }
+}
+@media screen and (max-width: 380px) {
+  .busines > p {
+      padding: 16px 5px 32px;
+  }
+  .categories_all__block {
+      padding: 5px 97px 6px 24px;
+      margin-bottom: 14px;
+  }
+  .categories_all__block:nth-of-type(1) {
+      padding: 5px 97px 6px 24px;
+      margin-bottom: 14px;
+  }
+  .tags_btn {
+      text-align: center;
+  }
+  .categories_all > h5 {
+      text-align: center;
+  }
+  .categories_all {
+      width: 100%;
+  }
+  .categories_all__block > p {
+      font-size: 20px;
+  }
+}

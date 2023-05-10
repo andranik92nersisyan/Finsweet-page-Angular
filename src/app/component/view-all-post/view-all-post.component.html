@@ -1,0 +1,12 @@
+<div *ngFor="let items of element">
+  <a class="post_item" [routerLink]="['/blogPost', items.id]" >
+    <p class="post_data">By
+      <span>{{ items.dataSpanText }}</span>
+      {{ items.dataText }}
+    </p>
+    <p class="post_text">{{ items.text }}</p>
+  </a>
+</div>
+
+
+
